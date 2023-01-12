@@ -72,6 +72,7 @@ nav ul {
   display: flex;
   margin: 0 200px;
   align-items: center;
+  gap: 60px;
 }
 
 .banner-subtitle {
@@ -257,10 +258,9 @@ input {
 @media screen and (max-width: 576px) {
 
 
-  /* *{
-    margin-right: 0px;
-    padding-right: 0px;
-  } */
+  .btn-primary> a {
+    text-decoration: none;
+  }
   .what-i-do {
     text-align: center;
     padding: 10px 20px;
