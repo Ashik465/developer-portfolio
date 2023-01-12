@@ -25,6 +25,10 @@ height: 64px; */
   padding: 18px 35px;
 }
 
+.btn-primary> a {
+  text-decoration: none;
+}
+
 .btn-secondary {
   background: #fff8f3;
   /* width: 150px;
